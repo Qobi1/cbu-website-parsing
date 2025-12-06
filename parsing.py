@@ -132,7 +132,7 @@ def job():
 
 if __name__ == "__main__":
     # Schedule the parser to run every day at 10:00 Tashkent time
-    schedule.every().day.at("12:29").do(job)
+    schedule.every().day.at("14:44").do(job)
 
     print("Scheduler started. Waiting for 10:00 Tashkent time...")
 
